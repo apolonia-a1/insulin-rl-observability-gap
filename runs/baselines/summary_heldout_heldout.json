@@ -1,0 +1,241 @@
+{
+  "patient": "heldout",
+  "split": "heldout",
+  "seeds": [
+    100000,
+    100019
+  ],
+  "days": 1,
+  "controllers": {
+    "basal": {
+      "tir": 36.59530540843497,
+      "tir_sd": 16.17119943885121,
+      "tbr_total": 0.0,
+      "tbr_total_sd": 0.0,
+      "tbr_level1": 0.0,
+      "tbr_level1_sd": 0.0,
+      "tbr_level2": 0.0,
+      "tbr_level2_sd": 0.0,
+      "tar_total": 63.40469459156503,
+      "tar_total_sd": 16.17119943885121,
+      "tar_level1": 21.96658561152846,
+      "tar_level1_sd": 15.469517123807744,
+      "tar_level2": 41.43810898003657,
+      "tar_level2_sd": 20.519142382426043,
+      "mean_bg": 251.9215664650339,
+      "mean_bg_sd": 48.37952427190735,
+      "cv": 36.084907470051945,
+      "cv_sd": 11.55297702790835,
+      "risk_index": 24.225355356178923,
+      "risk_index_sd": 10.648065451949062,
+      "lbgi": 0.0,
+      "lbgi_sd": 0.0,
+      "hbgi": 24.225355356178923,
+      "hbgi_sd": 10.648065451949062,
+      "total_insulin_U": 15.489738904231332,
+      "total_insulin_U_sd": 8.335897447194448,
+      "reward_total": -1512.8814667981017,
+      "reward_total_sd": 1036.9193358371328,
+      "n_episodes": 200,
+      "n_terminated": 37,
+      "episodes_tir_over_70": 9,
+      "by_patient": {
+        "adolescent#008": {
+          "tir": 35.58288369304557,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 1,
+          "n": 20
+        },
+        "adolescent#009": {
+          "tir": 46.739583333333336,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 20
+        },
+        "adolescent#010": {
+          "tir": 21.79366659492036,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 20
+        },
+        "adult#008": {
+          "tir": 42.30208333333333,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 20
+        },
+        "adult#009": {
+          "tir": 28.416666666666664,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 20
+        },
+        "adult#010": {
+          "tir": 29.052083333333332,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 20
+        },
+        "child#007": {
+          "tir": 35.31249999999999,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 20
+        },
+        "child#008": {
+          "tir": 56.3001061060103,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 7,
+          "n": 20
+        },
+        "child#009": {
+          "tir": 33.854166666666664,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 20
+        },
+        "child#010": {
+          "tir": 36.599314357040114,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 1,
+          "n": 20
+        }
+      },
+      "by_group": {
+        "adolescent": {
+          "tir": 34.70537787376642,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 1,
+          "n": 60
+        },
+        "adult": {
+          "tir": 33.25694444444444,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 60
+        },
+        "child": {
+          "tir": 40.51652178242927,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 8,
+          "n": 80
+        }
+      }
+    },
+    "bb": {
+      "tir": 82.40334946788069,
+      "tir_sd": 16.095582108297975,
+      "tbr_total": 5.6355663384655035,
+      "tbr_total_sd": 7.814026413502091,
+      "tbr_level1": 4.122610122703434,
+      "tbr_level1_sd": 5.908089757563814,
+      "tbr_level2": 1.5129562157620695,
+      "tbr_level2_sd": 3.565055881029473,
+      "tar_total": 11.96108419365382,
+      "tar_total_sd": 12.356014230422076,
+      "tar_level1": 7.785446482896525,
+      "tar_level1_sd": 6.461982101967412,
+      "tar_level2": 4.175637710757295,
+      "tar_level2_sd": 8.868664279389014,
+      "mean_bg": 134.7827392233347,
+      "mean_bg_sd": 23.20119361669705,
+      "cv": 29.889054103246558,
+      "cv_sd": 13.81880472277085,
+      "risk_index": 5.221646855663689,
+      "risk_index_sd": 5.278664225035947,
+      "lbgi": 1.5233970813233142,
+      "lbgi_sd": 1.8325995411573992,
+      "hbgi": 3.6982497743403746,
+      "hbgi_sd": 4.113194524652167,
+      "total_insulin_U": 40.28450189504711,
+      "total_insulin_U_sd": 20.34933786050853,
+      "reward_total": -355.42642814129374,
+      "reward_total_sd": 532.8284607270659,
+      "n_episodes": 200,
+      "n_terminated": 7,
+      "episodes_tir_over_70": 174,
+      "by_patient": {
+        "adolescent#008": {
+          "tir": 77.61458333333333,
+          "tbr_total": 0.1875,
+          "episodes_tir_over_70": 20,
+          "n": 20
+        },
+        "adolescent#009": {
+          "tir": 86.54166666666666,
+          "tbr_total": 0.6770833333333334,
+          "episodes_tir_over_70": 20,
+          "n": 20
+        },
+        "adolescent#010": {
+          "tir": 100.0,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 20,
+          "n": 20
+        },
+        "adult#008": {
+          "tir": 99.48958333333333,
+          "tbr_total": 0.17708333333333331,
+          "episodes_tir_over_70": 20,
+          "n": 20
+        },
+        "adult#009": {
+          "tir": 82.77083333333334,
+          "tbr_total": 8.375,
+          "episodes_tir_over_70": 18,
+          "n": 20
+        },
+        "adult#010": {
+          "tir": 88.49999999999999,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 20,
+          "n": 20
+        },
+        "child#007": {
+          "tir": 91.32291666666666,
+          "tbr_total": 8.677083333333332,
+          "episodes_tir_over_70": 20,
+          "n": 20
+        },
+        "child#008": {
+          "tir": 45.814744678806775,
+          "tbr_total": 15.470246717988369,
+          "episodes_tir_over_70": 1,
+          "n": 20
+        },
+        "child#009": {
+          "tir": 78.86458333333333,
+          "tbr_total": 15.59375,
+          "episodes_tir_over_70": 20,
+          "n": 20
+        },
+        "child#010": {
+          "tir": 73.11458333333334,
+          "tbr_total": 7.197916666666669,
+          "episodes_tir_over_70": 15,
+          "n": 20
+        }
+      },
+      "by_group": {
+        "adolescent": {
+          "tir": 88.05208333333333,
+          "tbr_total": 0.2881944444444445,
+          "episodes_tir_over_70": 60,
+          "n": 60
+        },
+        "adult": {
+          "tir": 90.2534722222222,
+          "tbr_total": 2.8506944444444446,
+          "episodes_tir_over_70": 58,
+          "n": 60
+        },
+        "child": {
+          "tir": 72.27920700303503,
+          "tbr_total": 11.734749179497092,
+          "episodes_tir_over_70": 56,
+          "n": 80
+        }
+      }
+    }
+  }
+}

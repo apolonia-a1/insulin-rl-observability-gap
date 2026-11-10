@@ -1,0 +1,109 @@
+{
+  "patient": "adult#001",
+  "split": "heldout",
+  "seeds": [
+    100000,
+    100019
+  ],
+  "days": 1,
+  "controllers": {
+    "basal": {
+      "tir": 35.54166666666667,
+      "tir_sd": 11.103126699926461,
+      "tbr_total": 0.0,
+      "tbr_total_sd": 0.0,
+      "tbr_level1": 0.0,
+      "tbr_level1_sd": 0.0,
+      "tbr_level2": 0.0,
+      "tbr_level2_sd": 0.0,
+      "tar_total": 64.45833333333334,
+      "tar_total_sd": 11.103126699926461,
+      "tar_level1": 45.875,
+      "tar_level1_sd": 10.91726930170031,
+      "tar_level2": 18.583333333333332,
+      "tar_level2_sd": 12.164465974967433,
+      "mean_bg": 201.9537674179714,
+      "mean_bg_sd": 13.636594092773748,
+      "cv": 21.80276306380781,
+      "cv_sd": 3.9292189226718746,
+      "risk_index": 12.874737209845872,
+      "risk_index_sd": 2.731540535069565,
+      "lbgi": 0.0,
+      "lbgi_sd": 0.0,
+      "hbgi": 12.874737209845872,
+      "hbgi_sd": 2.731540535069565,
+      "total_insulin_U": 30.416651999892462,
+      "total_insulin_U_sd": 3.645007325606123e-15,
+      "reward_total": -617.9873860726019,
+      "reward_total_sd": 131.11394568333918,
+      "n_episodes": 20,
+      "n_terminated": 0,
+      "episodes_tir_over_70": 0,
+      "by_patient": {
+        "adult#001": {
+          "tir": 35.54166666666667,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 20
+        }
+      },
+      "by_group": {
+        "adult": {
+          "tir": 35.54166666666667,
+          "tbr_total": 0.0,
+          "episodes_tir_over_70": 0,
+          "n": 20
+        }
+      }
+    },
+    "bb": {
+      "tir": 90.94791666666669,
+      "tir_sd": 5.661825121472788,
+      "tbr_total": 1.3645833333333333,
+      "tbr_total_sd": 4.6650779524710595,
+      "tbr_level1": 0.8541666666666666,
+      "tbr_level1_sd": 2.50538528161972,
+      "tbr_level2": 0.5104166666666667,
+      "tbr_level2_sd": 2.282652727031036,
+      "tar_total": 7.687500000000002,
+      "tar_total_sd": 3.269607407983286,
+      "tar_level1": 7.687500000000002,
+      "tar_level1_sd": 3.269607407983286,
+      "tar_level2": 0.0,
+      "tar_level2_sd": 0.0,
+      "mean_bg": 134.2886163789815,
+      "mean_bg_sd": 7.793242784122431,
+      "cv": 22.946107043360332,
+      "cv_sd": 6.526727400991663,
+      "risk_index": 3.0912641171728423,
+      "risk_index_sd": 0.8300048177236389,
+      "lbgi": 0.6592874694707553,
+      "lbgi_sd": 0.9369946765551391,
+      "hbgi": 2.4319766477020877,
+      "hbgi_sd": 0.38168096191213197,
+      "total_insulin_U": 52.285749253837594,
+      "total_insulin_U_sd": 4.205849918849541,
+      "reward_total": -163.61286666678444,
+      "reward_total_sd": 102.24546990872841,
+      "n_episodes": 20,
+      "n_terminated": 0,
+      "episodes_tir_over_70": 20,
+      "by_patient": {
+        "adult#001": {
+          "tir": 90.94791666666669,
+          "tbr_total": 1.3645833333333333,
+          "episodes_tir_over_70": 20,
+          "n": 20
+        }
+      },
+      "by_group": {
+        "adult": {
+          "tir": 90.94791666666669,
+          "tbr_total": 1.3645833333333333,
+          "episodes_tir_over_70": 20,
+          "n": 20
+        }
+      }
+    }
+  }
+}

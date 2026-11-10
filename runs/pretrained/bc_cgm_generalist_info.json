@@ -1,0 +1,13 @@
+{
+  "patient": "train",
+  "obs_mode": "cgm",
+  "episodes": 300,
+  "pairs": 143836,
+  "teacher_tir": 84.45912761291974,
+  "epochs": 40,
+  "val_mse": 0.005571570713073015,
+  "val_corr": 0.09950563154303221,
+  "action_mean": 0.006826598197221756,
+  "action_sd": 0.07804163545370102,
+  "log_std_init": -1.0
+}

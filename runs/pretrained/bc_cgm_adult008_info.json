@@ -1,0 +1,13 @@
+{
+  "patient": "adult#008",
+  "obs_mode": "cgm",
+  "episodes": 80,
+  "pairs": 38400,
+  "teacher_tir": 99.4765625,
+  "epochs": 40,
+  "val_mse": 0.004870839416980743,
+  "val_corr": 0.09937692008059786,
+  "action_mean": 0.006383918225765228,
+  "action_sd": 0.07249070703983307,
+  "log_std_init": -1.0
+}

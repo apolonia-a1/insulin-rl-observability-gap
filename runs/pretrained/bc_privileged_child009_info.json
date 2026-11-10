@@ -1,0 +1,13 @@
+{
+  "patient": "child#009",
+  "obs_mode": "privileged",
+  "episodes": 80,
+  "pairs": 38400,
+  "teacher_tir": 80.86197916666667,
+  "epochs": 40,
+  "val_mse": 4.1622686694609e-05,
+  "val_corr": 0.9964349398160014,
+  "action_mean": 0.0069300029426813126,
+  "action_sd": 0.07842140644788742,
+  "log_std_init": -1.0
+}

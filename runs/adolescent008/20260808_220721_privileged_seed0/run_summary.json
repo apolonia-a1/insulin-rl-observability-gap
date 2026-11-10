@@ -1,0 +1,7 @@
+{
+  "total_steps": 294912,
+  "total_episodes": 600,
+  "wall_hours": 0.094,
+  "steps_per_sec": 868.2,
+  "final_tir_100": 46.40833333333334
+}

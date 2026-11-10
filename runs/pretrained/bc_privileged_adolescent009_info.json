@@ -1,0 +1,13 @@
+{
+  "patient": "adolescent#009",
+  "obs_mode": "privileged",
+  "episodes": 80,
+  "pairs": 38400,
+  "teacher_tir": 86.33333333333334,
+  "epochs": 40,
+  "val_mse": 0.00021329481387510896,
+  "val_corr": 0.9806033158231565,
+  "action_mean": 0.0068711042404174805,
+  "action_sd": 0.07733891904354095,
+  "log_std_init": -1.0
+}

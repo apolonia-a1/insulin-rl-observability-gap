@@ -1,0 +1,59 @@
+{
+  "launched_at": "2026-08-09 00:55:16",
+  "patient": "adolescent#008",
+  "patients": [
+    "adolescent#008"
+  ],
+  "obs_mode": "cgm",
+  "days_per_episode": 1,
+  "steps_per_episode": 480,
+  "total_steps": 250000,
+  "seed": 1,
+  "n_envs": 24,
+  "n_scenarios": null,
+  "hyperparams": {
+    "learning_rate": 0.0003,
+    "n_steps": 256,
+    "batch_size": 256,
+    "n_epochs": 5,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_range": 0.2,
+    "ent_coef": 0.0,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5
+  },
+  "net_hidden": 64,
+  "log_std_init": -1.0,
+  "reset_log_std": -2.5,
+  "reward_version": "v2",
+  "reward_weights": {
+    "w_risk": 0.1,
+    "max_risk": 100.0,
+    "w_hypo": 10.0,
+    "w_severe": 2.0,
+    "terminal": "verbleibende Schritte mal maximales Risiko"
+  },
+  "action_space": {
+    "kind": "log-multiplier auf basal_ss",
+    "max_mult": 160.0
+  },
+  "obs_params": {
+    "hist_len": 12,
+    "announce_window": 30
+  },
+  "sensor": "Dexcom",
+  "pump": "Insulet",
+  "heldout_seed_base": 100000,
+  "train_seed_offset": 137,
+  "versions": {
+    "python": "3.10.12",
+    "stable_baselines3": "2.9.0",
+    "torch": "2.13.0+cu130",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "simglucose": "0.2.11"
+  },
+  "device": "cpu",
+  "resumed_from": "runs/pretrained/bc_cgm_adolescent008.zip"
+}

@@ -1,0 +1,98 @@
+{
+  "patient": "adult#001",
+  "controller": "bb",
+  "model": null,
+  "obs_mode": "cgm",
+  "trajectories": 12,
+  "levels": 4,
+  "scenarios": 2,
+  "rel_range": 0.2,
+  "nominal": {
+    "kabs": 0.08906,
+    "kmax": 0.046122,
+    "kp1": 4.73140582528,
+    "kp3": 0.01208,
+    "Vmx": 0.031319,
+    "Km0": 253.52,
+    "ka1": 0.0019,
+    "kd": 0.0152,
+    "ksc": 0.0766,
+    "u2ss": 1.2386244136
+  },
+  "results": [
+    {
+      "name": "kp1",
+      "description": "Basisrate der endogenen Glukoseproduktion",
+      "mu_star": 33.020833333333336,
+      "mu": -13.098958333333334,
+      "sigma": 34.43060026505119
+    },
+    {
+      "name": "kp3",
+      "description": "Insulinwirkung auf die Glukoseproduktion",
+      "mu_star": 16.302083333333332,
+      "mu": -0.3645833333333375,
+      "sigma": 17.91380350625199
+    },
+    {
+      "name": "Km0",
+      "description": "Michaelis-Konstante der Glukoseaufnahme",
+      "mu_star": 13.997395833333334,
+      "mu": -2.6432291666666625,
+      "sigma": 14.985412285960251
+    },
+    {
+      "name": "Vmx",
+      "description": "insulinabhaengige Glukoseaufnahme",
+      "mu_star": 9.55729166666667,
+      "mu": 4.9218750000000036,
+      "sigma": 9.551487457042777
+    },
+    {
+      "name": "kmax",
+      "description": "maximale Magenentleerungsrate",
+      "mu_star": 7.005208333333329,
+      "mu": -7.005208333333329,
+      "sigma": 3.5102283916780124
+    },
+    {
+      "name": "kd",
+      "description": "Dissoziation des subkutanen Insulins",
+      "mu_star": 2.0703124999999947,
+      "mu": 1.9661458333333304,
+      "sigma": 1.9429660037097753
+    },
+    {
+      "name": "ka1",
+      "description": "Resorption des subkutanen Insulins",
+      "mu_star": 0.78125,
+      "mu": 0.625,
+      "sigma": 0.8022739344569888
+    },
+    {
+      "name": "kabs",
+      "description": "Resorptionsrate aus dem Darm",
+      "mu_star": 0.5989583333333357,
+      "mu": -0.5989583333333357,
+      "sigma": 0.5990097968668189
+    },
+    {
+      "name": "ksc",
+      "description": "Diffusion Plasma zu subkutaner Glukose",
+      "mu_star": 0.5859375000000009,
+      "mu": -0.5598958333333348,
+      "sigma": 0.47326581107830107
+    },
+    {
+      "name": "u2ss",
+      "description": "stationaerer Insulinbedarf",
+      "mu_star": 0.0,
+      "mu": 0.0,
+      "sigma": 0.0
+    }
+  ],
+  "qoi_min": 46.97916666666667,
+  "qoi_max": 96.14583333333334,
+  "qoi_median": 75.36458333333334,
+  "wall_seconds": 241.6
+}

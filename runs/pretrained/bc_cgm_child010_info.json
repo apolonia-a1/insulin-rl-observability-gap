@@ -1,0 +1,13 @@
+{
+  "patient": "child#010",
+  "obs_mode": "cgm",
+  "episodes": 80,
+  "pairs": 38400,
+  "teacher_tir": 71.24479166666667,
+  "epochs": 40,
+  "val_mse": 0.006210524123162031,
+  "val_corr": 0.12450347365919341,
+  "action_mean": 0.007414373569190502,
+  "action_sd": 0.0831606462597847,
+  "log_std_init": -1.0
+}
